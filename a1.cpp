@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std; 
 ////////////  indes of first occurence of a given number ////
-// naive solution
+// the below code gives results in O(log n) time
 int var=INT16_MAX;
 int OLOGN(int a[], int k,int low, int high)
 {
